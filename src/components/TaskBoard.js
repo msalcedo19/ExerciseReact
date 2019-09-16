@@ -21,7 +21,7 @@ export default class TaskBoard extends React.Component
                 return value
             }
         }).Description;
-        this.state.Tasks.push({Id: this.state.cantTask, Task:  "Task No. " + cantTask, Description: descript});
+        this.state.Tasks.push({Id: cantTask, Task:  "Task No. " + cantTask, Description: descript});
     }
 
     deleteTask = () =>{
